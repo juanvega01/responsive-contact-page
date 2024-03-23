@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav> <img src="contact-form-icon.svg" alt="" srcset=""> </nav>
+    <nav> <img src="img/contact-form-icon.svg" alt="" srcset=""> </nav>
     <h1>Interested in our business pricing?</h1>
     <p>Fill out the form to view details and we'll contact you as soon as possible</p>
     <div class="bg-form">
-        
-    <section class="contact-form">
+   <form action="index.php" method="post" class="contact-form">
+        <section class="contact-form">
         <label for="name">Nombre</label>
         <input type="text" name="name" id="">
         <label for="email">email de la empresa</label>
@@ -23,11 +23,16 @@
         </select>
         
         <label for="subject">Subject</label>
-        <option value="">valor 1</option>
+        <select name="" id="">
+            <option value="">Building Landing pages</option>
+        </select>
+        
         <label for="messaje">Mensaje</label>
         <textarea name="messaje" id="" cols="20" rows="0"></textarea>
-    <input type="button" value="Contact Sales">
+    <button type="button">Contact Sales</button>
 </section>
+   </form>     
+
     
     </div>
     
